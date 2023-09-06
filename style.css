@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: linear-gradient(to left bottom, #3B5998, #FFA500); /* Cool Blue and Warm Orange Gradient */
+    font-family: monospace, sans-serif;
+    color: #FFA500; /* Orange Text Color */
+}
+
+.container {
+    background: rgba(128, 128, 128, 0.8); /* Neutral Gray Background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    width: 85%;
+    max-width: 450px;
+    min-width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    font-size: 32px;
+}
+
+.temp-container {
+    width: 100%;
+    padding: 15px;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+input {
+    width: 220px;
+    font-family: monospace;
+    float: right;
+    padding: 5px;
+    outline: none;
+    background: white; /* Neutral Gray Background */
+    border-color: rgba(128, 128, 128, 0.9); /* Lighter border color */
+    color: #FFA500; /* Orange Text Color */
+    font-size: 18px;
+}
+
+input::placeholder {
+    color: grey;
+}
